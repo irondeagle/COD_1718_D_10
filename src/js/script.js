@@ -1,13 +1,7 @@
-{
-  let canvas;
-  let ctx;
+import TheHunter from './classes/TheHunter';
 
+const init = () => {
+  new TheHunter();
+};
 
-  const init = () => {
-
-  }
-
-
-  init();
-
-}
+init();
