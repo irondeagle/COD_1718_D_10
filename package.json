@@ -1,5 +1,5 @@
 {
-  "name": "demo",
+  "name": "TheHunter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "serve": "http-server ./dist -p 8080"
   },
   "keywords": [],
-  "author": "Wouter Verweirder <wouter.verweirder@gmail.com>",
+  "author": "Sander Maenhout <sander.maenhout@student.howest.be>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.17.0",
