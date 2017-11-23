@@ -1,11 +1,9 @@
 const SPEED = 1;
 
 export default class GameState extends Phaser.State {
-
   init() {
-    console.log(`this is the init function`);
+    console.log(`init`);
   }
-
   preload() {
     console.log(`preload`);
   }
@@ -15,7 +13,6 @@ export default class GameState extends Phaser.State {
   }
 
   update() {
-    console.log(`update`);
   }
 
   render() {

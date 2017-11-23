@@ -1,7 +1,7 @@
-import TheHunter from "./classes/TheHunter.js";
+import Game from "./classes/TheHunter";
 
 const init = () => {
-  new TheHunter();
+  new Game();
 };
 
 init();
