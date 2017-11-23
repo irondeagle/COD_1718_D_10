@@ -3,8 +3,8 @@ export default class Keyboard {
     this.keys = {};
     window.addEventListener(`keydown` , event => this.handleKeyDown(event));
     window.addEventListener( `keyup` , event => this.handleKeyUp(event));
-    Keyboard.LEFT  = 37;
-    Keyboard.RIGHT = 39;
+    Keyboard.UP  = 38;
+    Keyboard.DOWN = 40;
     Keyboard.SPACE = 32;
     Keyboard.R = 82;
     }
