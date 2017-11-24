@@ -1,7 +1,7 @@
 import Game from "./classes/TheHunter";
 
 const init = () => {
-  new Game();
+    new Game();
 };
 
 init();
